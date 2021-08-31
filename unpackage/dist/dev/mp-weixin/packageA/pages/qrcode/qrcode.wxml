@@ -1,0 +1,1 @@
+<view class="container data-v-33fb1544"><view class="topbox data-v-33fb1544"></view><u-gap vue-id="4b669130-1" height="100" class="data-v-33fb1544" bind:__l="__l"></u-gap><view class="qrcodebx data-v-33fb1544"><image src="{{url}}" mode="aspectFit" class="data-v-33fb1544"></image><text class="data-v-33fb1544"></text></view></view>

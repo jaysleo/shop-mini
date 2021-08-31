@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "日常商品批发",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "v-prolist": "/components/prolist",
+    "load-more": "/components/loadmore"
+  }
+}

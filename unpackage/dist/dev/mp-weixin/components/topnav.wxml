@@ -1,0 +1,1 @@
+<view class="tophead"><view data-event-opts="{{[['tap',[['eventClick',['$event']]]]]}}" class="nav" bindtap="__e"><u-icon class="footIcon" vue-id="4d10d07d-1" size="28" name="/static/img/3258.png" bind:__l="__l"></u-icon></view><text class="title">{{title}}</text><slot name="subtit"></slot></view>

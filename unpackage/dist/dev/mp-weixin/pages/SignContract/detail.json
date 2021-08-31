@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "签约简介与合同协议",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse"
+  }
+}

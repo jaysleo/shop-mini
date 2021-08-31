@@ -1,0 +1,414 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.hc {
+  background: #F8F8F8;
+  width: 100%;
+  height: 100%;
+}
+.hc .bg {
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 30rpx 50rpx;
+  text-align: center;
+}
+.hc .bg .nav {
+  margin-right: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.hc .bg .title {
+  font-size: 30rpx;
+  font-weight: 550;
+  color: #141313;
+}
+.hc .head {
+  width: 100%;
+  padding: 20rpx;
+}
+.hc .head .userBox {
+  width: 100%;
+  height: 223rpx;
+  background: url(data:image/png;base64,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) no-repeat center;
+  border-radius: 20rpx;
+  padding: 37rpx 60rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.hc .head .userBox .userNumber {
+  width: 149rpx;
+  height: 149rpx;
+  border: 5rpx solid #ff9d00;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  font-size: 20rpx;
+  color: #141313;
+  position: relative;
+  overflow: hidden;
+}
+.hc .head .userBox .userNumber .numberbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0px;
+  background: #FFDFAC;
+}
+.hc .head .userBox .userNumber .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 20;
+}
+.hc .head .userBox .rightBox {
+  margin-left: 36rpx;
+}
+.hc .head .userBox .rightBox .userFont {
+  font-size: 22rpx;
+  font-weight: bold;
+  color: #000000;
+}
+.hc .head .userBox .rightBox .userFontWo {
+  color: #141313;
+  font-weight: bold;
+  font-size: 22rpx;
+}
+.hc .head .userBox .rightBox .userFontWo .spanSize {
+  color: #FF9D00;
+  font-size: 45rpx;
+}
+.hc .head .footBox {
+  width: 100%;
+  height: 82rpx;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 82rpx;
+  padding: 0 43rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.hc .head .footBox .left {
+  font-size: 22rpx;
+  color: #000000;
+}
+.hc .head .footBox .left .spanSize {
+  font-size: 25rpx;
+  font-weight: 550;
+}
+.hc .head .footBox .center {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.hc .head .footBox .right {
+  margin-top: 18rpx;
+  width: 172rpx;
+  height: 47rpx;
+  background: #FFFFFF;
+  line-height: 43rpx;
+  text-align: center;
+  border: #FF9D00 solid 2rpx;
+  border-radius: 25rpx;
+  color: #FF9D00;
+  font-size: 22rpx;
+}
+.hc .head .footBox .right:active {
+  opacity: 0.5;
+}
+.hc .account_list {
+  padding: 20rpx;
+}
+.hc .account_list .title {
+  font-size: 30rpx;
+  color: #141313;
+  font-weight: bold;
+  border-bottom: #FFCE7F 4rpx solid;
+  display: inline-block;
+  margin-bottom: 50rpx;
+  margin-left: 40rpx;
+}
+.hc .account_list .tabs_box .inv_h_w {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-bottom: 40rpx;
+}
+.hc .account_list .tabs_box .inv_h_w .inv_h {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  font-size: 30rpx;
+  color: #707070;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+.hc .account_list .tabs_box .inv_h_w .inv_h.active {
+  color: #FF9D00;
+}
+.hc .account_list .tabs_box .inv_h_w .inv_h.active::after {
+  content: "";
+  width: 46rpx;
+  height: 2rpx;
+  background: #FF9D00;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -23rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 0 32rpx;
+  margin-bottom: 20rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem .tit {
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 20rpx;
+  color: #000000;
+  border-bottom: 2rpx solid #eeeeee;
+}
+.hc .account_list .tabs_box .inv_con .invitem .con {
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.hc .account_list .tabs_box .inv_con .invitem .con .left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 24rpx;
+  color: #000000;
+  margin-right: 40rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem .con .left .name {
+  font-weight: bold;
+}
+.hc .account_list .tabs_box .inv_con .invitem .con .price {
+  font-size: 28rpx;
+  color: #000000;
+  font-weight: bold;
+}
+.hc .account_list .tabs_box .inv_con .invitem .con .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 22rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem.nomore {
+  padding-bottom: 48rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem.nomore .tit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.hc .account_list .tabs_box .inv_con .invitem.nomore .tit .money {
+  font-size: 28rpx;
+  color: #FF9D00;
+  font-weight: bold;
+}
+.hc .account_list .tabs_box .inv_con .invitem.nomore .con {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 56rpx 0 0 0;
+}
+.hc .account_list .tabs_box .inv_con .invitem.nomore .con .notip {
+  font-size: 24rpx;
+  color: #D4D4D4;
+  margin-top: 30rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem .cons .item {
+  padding: 12rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.hc .account_list .tabs_box .inv_con .invitem .cons .item .lft {
+  font-size: 22rpx;
+  color: #000000;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-right: 40rpx;
+}
+.hc .account_list .tabs_box .inv_con .invitem .cons .item .rht {
+  font-size: 18rpx;
+}
+.hc .btn_actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 48rpx;
+}
+.hc .btn_actions .btns {
+  border: 0;
+  width: 392rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+  font-size: 28rpx;
+  margin: 0 10rpx 68rpx;
+}
+.hc .btn_actions .btn_primary {
+  background: #ff9d00;
+  color: #FFFFFF;
+}
+.hc .btn_actions .btn_back {
+  background: #ffffff;
+  color: #707070;
+}
+.hc .author_actions {
+  padding: 0 54rpx;
+}
+.hc .author_actions .title {
+  display: inline-block;
+  font-size: 30rpx;
+  color: #141313;
+  border-bottom: #FFCE7F 5rpx solid;
+}
+.hc .author_actions .btnbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.hc .author_actions .btnbox .btnsbox {
+  width: 468rpx;
+  height: 86rpx;
+  border-radius: 44rpx;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 28rpx;
+}
+.hc .author_actions .btnbox .alipay_box {
+  background: #ffffff;
+}
+.hc .author_actions .btnbox .amount_box {
+  background: #ff9d00;
+  font-size: 24rpx;
+  color: #FFFFFF;
+}
+.hc .author_actions .btnbox .amount_box .text {
+  margin-left: 22rpx;
+}
+.hc .tipbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-top: 140rpx;
+  font-size: 20rpx;
+  color: #707070;
+}
+

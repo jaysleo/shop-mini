@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.hc {
+  background: #F8F8F8;
+  width: 100%;
+  height: 100%;
+}
+.hc .bg {
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 30rpx 50rpx;
+  text-align: center;
+  line-height: 100%;
+}
+.hc .bg .nav {
+  margin-right: 20rpx;
+}
+.hc .bg .title {
+  font-size: 30rpx;
+  font-weight: 550;
+  color: #141313;
+}
+.hc .content {
+  padding: 48rpx;
+}
+.hc .content .rewardbox {
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100%;
+  height: 242rpx;
+  padding: 0 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.hc .content .rewardbox .title {
+  font-size: 24rpx;
+  color: #141313;
+}
+.hc .content .rewardbox .price_wrap {
+  font-size: 24rpx;
+  color: #FF9D00;
+}
+.hc .content .rewardbox .price_wrap .price {
+  font-size: 50rpx;
+}
+.hc .content .rewardbox .btn {
+  margin-top: 20rpx;
+  width: 158rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  background: #ff9d00;
+  border-radius: 24rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #ffffff;
+}
+.hc .content .btnbox {
+  margin: 26rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.hc .content .btnbox .btn_default {
+  width: 90%;
+  height: 100rpx;
+  border-radius: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.hc .content .btnbox .btn_default .text {
+  margin-left: 24rpx;
+  font-size: 24rpx;
+  color: #ffffff;
+}
+.hc .content .btnbox .wechat_btn {
+  background: #1ab818;
+}
+.hc .content .btnbox .ewm_btn {
+  background: #ff9d00;
+  margin-left: 16rpx;
+}
+.hc .content .invitebox .tabview {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.hc .content .invitebox .tabview .tabview_item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.hc .content .invitebox .tabview .tabview_item .label {
+  font-size: 28rpx;
+  color: #707070;
+  padding: 20rpx 0;
+  position: relative;
+}
+.hc .content .invitebox .tabview .tabview_item.active .label {
+  color: #FF9D00;
+}
+.hc .content .invitebox .tabview .tabview_item.active .label::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6rpx;
+  background: #FF9D00;
+}
+.hc .content .invitebox .invite_list {
+  background: #ffffff;
+  border-radius: 24rpx;
+}
+.hc .content .invitebox .invite_list .invite_item {
+  margin: 0 18rpx;
+  padding: 20rpx;
+  border-bottom: 2rpx solid #f6f6f6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.hc .content .invitebox .invite_list .invite_item .avatar {
+  width: 66rpx;
+  height: 66rpx;
+  border-radius: 50%;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.hc .content .invitebox .invite_list .invite_item .title_wrap {
+  margin-left: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.hc .content .invitebox .invite_list .invite_item .title_wrap .name {
+  font-size: 24rpx;
+  color: #141313;
+}
+.hc .content .invitebox .invite_list .invite_item .title_wrap .desc {
+  font-size: 24rpx;
+  color: #707070;
+}
+.hc .content .invitebox .invite_list .invite_item:last-child {
+  border-bottom: 0;
+}
+

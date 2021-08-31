@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "邀请二维码",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap"
+  }
+}

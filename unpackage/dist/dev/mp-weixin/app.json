@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/SignContract/SignContract",
+    "pages/SignContract/bound",
+    "pages/SignContract/pay",
+    "pages/SignContract/detail",
+    "pages/shopCat/shopCat"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/address/index",
+        "pages/address/address",
+        "pages/AuthorizationLimit/AuthorizationLimit",
+        "pages/AuthorizationLimit/settle",
+        "pages/AuthorizationLimit/quantity",
+        "pages/category/category",
+        "pages/DailyWholesale/DailyWholesale",
+        "pages/detail/detail",
+        "pages/gift/gift",
+        "pages/evaluate/evaluate",
+        "pages/Feedback/Feedback",
+        "pages/Feedback/coupleback",
+        "pages/goods/index",
+        "pages/HotShopto/HotShopto",
+        "pages/notice/index",
+        "pages/notice/detail",
+        "pages/order/order",
+        "pages/order/orderConfirm",
+        "pages/order/shopOrder",
+        "pages/SignShopList/SignShopList",
+        "pages/WechatInvitate/WechatInvitate",
+        "pages/withdrawal/withdrawal",
+        "pages/withdrawal/deposit",
+        "pages/withdrawal/addcard",
+        "pages/login/login",
+        "pages/login/register",
+        "pages/login/ForgetPassword",
+        "pages/pay/pay",
+        "pages/qrcode/qrcode",
+        "pages/service/index",
+        "pages/recharge/recharge"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "批发商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B1B1B1",
+    "selectedColor": "#FF9D00",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/tab_home.png",
+        "selectedIconPath": "static/img/tab_home_fill.png"
+      },
+      {
+        "pagePath": "pages/shopCat/shopCat",
+        "text": "购物车",
+        "iconPath": "static/img/tab_cart.png",
+        "selectedIconPath": "static/img/tab_cart_fill.png"
+      },
+      {
+        "pagePath": "pages/SignContract/SignContract",
+        "text": "签约",
+        "iconPath": "static/img/tab_qy.png",
+        "selectedIconPath": "static/img/tab_qy_fill.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "static/img/tab_user.png",
+        "selectedIconPath": "static/img/tab_user_fill.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

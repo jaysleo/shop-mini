@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "邀请功能",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "empty": "/components/empty",
+    "load-more": "/components/loadmore",
+    "share-mask": "/components/shareMask"
+  }
+}

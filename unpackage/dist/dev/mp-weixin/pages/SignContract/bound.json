@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "授权绑定",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "top-nav": "/components/topnav"
+  }
+}

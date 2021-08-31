@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "用户订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "top-nav": "/components/topnav",
+    "load-more": "/components/loadmore",
+    "v-pay": "/components/pay"
+  }
+}

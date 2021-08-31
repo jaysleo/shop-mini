@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "签约商家商品列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "v-prolist": "/components/prolist",
+    "empty": "/components/empty",
+    "load-more": "/components/loadmore"
+  }
+}

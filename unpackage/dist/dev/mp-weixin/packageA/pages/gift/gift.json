@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商家礼品赠送",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "top-nav": "/components/topnav",
+    "v-prolist": "/components/prolist",
+    "empty": "/components/empty",
+    "load-more": "/components/loadmore"
+  }
+}
